@@ -17,12 +17,17 @@ A modern iOS step tracking app built with SwiftUI and SwiftData. Track your dail
 
 ## Screenshots
 
+<h2 align="center">Screenshots</h2>
+
 <p align="center">
-  <img src="LINK_1" width="200"/>
-  <img src="LINK_2" width="200"/>
-  <img src="LINK_3" width="200"/>
-  <img src="LINK_4" width="200"/>
-  <img src="LINK_5" width="200"/>
+  <img src="screenshots/1.png" width="180"/>
+  <img src="screenshots/2.png" width="180"/>
+  <img src="screenshots/3.png" width="180"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/4.png" width="180"/>
+  <img src="screenshots/5.png" width="180"/>
 </p>
 
 
