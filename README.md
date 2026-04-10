@@ -17,9 +17,7 @@ A modern iOS step tracking app built with SwiftUI and SwiftData. Track your dail
 
 ## Screenshots
 
-| Overview | Statistics | Profile |
-|:--------:|:----------:|:-------:|
-| Home dashboard with daily progress | Performance trends and charts | Settings and customization |
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-02 at 14 38 08" src="https://github.com/user-attachments/assets/e0c98afa-35ef-48c6-90cf-4a4200f82798" />
 
 ## Tech Stack
 
