@@ -17,20 +17,14 @@ A modern iOS step tracking app built with SwiftUI and SwiftData. Track your dail
 
 ## Screenshots
 
-<h2 align="center">Screenshots</h2>
-
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-10 at 13 48 35" src="https://github.com/user-attachments/assets/517af4ba-b81d-40bc-925c-3c5a64697763" /> <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-10 at 13 48 27" src="https://github.com/user-attachments/assets/622ca3c8-78e4-41be-9683-1cc74ff68a84" /> <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-10 at 13 48 19" src="https://github.com/user-attachments/assets/7ed0aeb9-ad25-454c-8697-1fafea067e52" /> <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-10 at 13 48 06" src="https://github.com/user-attachments/assets/3bbefece-d6e8-4008-ae19-4f29d3cb1323" /> <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-10 at 13 47 56" src="https://github.com/user-attachments/assets/af67918d-85d6-456d-874f-00845e175952" />
 <p align="center">
-  <img src="screenshots/1.png" width="180"/>
-  <img src="screenshots/2.png" width="180"/>
-  <img src="screenshots/3.png" width="180"/>
+  <img src="LINK_1" width="200"/>
+  <img src="LINK_2" width="200"/>
+  <img src="LINK_3" width="200"/>
+  <img src="LINK_4" width="200"/>
+  <img src="LINK_5" width="200"/>
 </p>
-
-<p align="center">
-  <img src="screenshots/4.png" width="180"/>
-  <img src="screenshots/5.png" width="180"/>
-</p>
-
-
 ## Tech Stack
 
 - **UI**: SwiftUI
