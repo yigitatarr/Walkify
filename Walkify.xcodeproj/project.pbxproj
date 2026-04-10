@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		W1W2W3042F4EEC5000466D1 /* WalkifyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = W1W2W3012F4EEC5000466D1 /* WalkifyWidgetExtension.appex */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349751F12F4EEC5000466D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349751D92F4EEC4F00466D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349751E02F4EEC4F00466D1D;
+			remoteInfo = Walkify;
+		};
+		349751FB2F4EEC5000466D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349751D92F4EEC4F00466D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349751E02F4EEC4F00466D1D;
+			remoteInfo = Walkify;
+		};
+		W1W2W3002F4EEC5000466D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349751D92F4EEC4F00466D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = W1W2W3022F4EEC5000466D1;
+			remoteInfo = WalkifyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		W1W2W3062F4EEC5000466D1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				W1W2W3042F4EEC5000466D1 /* WalkifyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		349751E12F4EEC4F00466D1D /* Walkify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walkify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		349751F02F4EEC5000466D1D /* WalkifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349751FA2F4EEC5000466D1D /* WalkifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		W1W2W3012F4EEC5000466D1 /* WalkifyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WalkifyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		349751E32F4EEC4F00466D1D /* Walkify */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Walkify;
+			sourceTree = "<group>";
+		};
+		349751F32F4EEC5000466D1D /* WalkifyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WalkifyTests;
+			sourceTree = "<group>";
+		};
+		349751FD2F4EEC5000466D1D /* WalkifyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WalkifyUITests;
+			sourceTree = "<group>";
+		};
+		W1W2W3032F4EEC5000466D1 /* WalkifyWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WalkifyWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349751DE2F4EEC4F00466D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349751ED2F4EEC5000466D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349751F72F4EEC5000466D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		W1W2W3092F4EEC5000466D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349751D82F4EEC4F00466D1D = {
+			isa = PBXGroup;
+			children = (
+				349751E32F4EEC4F00466D1D /* Walkify */,
+				W1W2W3032F4EEC5000466D1 /* WalkifyWidget */,
+				349751F32F4EEC5000466D1D /* WalkifyTests */,
+				349751FD2F4EEC5000466D1D /* WalkifyUITests */,
+				349751E22F4EEC4F00466D1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349751E22F4EEC4F00466D1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349751E12F4EEC4F00466D1D /* Walkify.app */,
+				W1W2W3012F4EEC5000466D1 /* WalkifyWidgetExtension.appex */,
+				349751F02F4EEC5000466D1D /* WalkifyTests.xctest */,
+				349751FA2F4EEC5000466D1D /* WalkifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349751E02F4EEC4F00466D1D /* Walkify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349752042F4EEC5000466D1D /* Build configuration list for PBXNativeTarget "Walkify" */;
+			buildPhases = (
+				349751DD2F4EEC4F00466D1D /* Sources */,
+				349751DE2F4EEC4F00466D1D /* Frameworks */,
+				349751DF2F4EEC4F00466D1D /* Resources */,
+				W1W2W3062F4EEC5000466D1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				W1W2W3052F4EEC5000466D1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				349751E32F4EEC4F00466D1D /* Walkify */,
+			);
+			name = Walkify;
+			packageProductDependencies = (
+			);
+			productName = Walkify;
+			productReference = 349751E12F4EEC4F00466D1D /* Walkify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		349751EF2F4EEC5000466D1D /* WalkifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349752072F4EEC5000466D1D /* Build configuration list for PBXNativeTarget "WalkifyTests" */;
+			buildPhases = (
+				349751EC2F4EEC5000466D1D /* Sources */,
+				349751ED2F4EEC5000466D1D /* Frameworks */,
+				349751EE2F4EEC5000466D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349751F22F4EEC5000466D1D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				349751F32F4EEC5000466D1D /* WalkifyTests */,
+			);
+			name = WalkifyTests;
+			packageProductDependencies = (
+			);
+			productName = WalkifyTests;
+			productReference = 349751F02F4EEC5000466D1D /* WalkifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		349751F92F4EEC5000466D1D /* WalkifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3497520A2F4EEC5000466D1D /* Build configuration list for PBXNativeTarget "WalkifyUITests" */;
+			buildPhases = (
+				349751F62F4EEC5000466D1D /* Sources */,
+				349751F72F4EEC5000466D1D /* Frameworks */,
+				349751F82F4EEC5000466D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349751FC2F4EEC5000466D1D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				349751FD2F4EEC5000466D1D /* WalkifyUITests */,
+			);
+			name = WalkifyUITests;
+			packageProductDependencies = (
+			);
+			productName = WalkifyUITests;
+			productReference = 349751FA2F4EEC5000466D1D /* WalkifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		W1W2W3022F4EEC5000466D1 /* WalkifyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = W1W2W3072F4EEC5000466D1 /* Build configuration list for PBXNativeTarget "WalkifyWidgetExtension" */;
+			buildPhases = (
+				W1W2W3082F4EEC5000466D1 /* Sources */,
+				W1W2W3092F4EEC5000466D1 /* Frameworks */,
+				W1W2W30A2F4EEC5000466D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				W1W2W3032F4EEC5000466D1 /* WalkifyWidget */,
+			);
+			name = WalkifyWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = WalkifyWidgetExtension;
+			productReference = W1W2W3012F4EEC5000466D1 /* WalkifyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349751D92F4EEC4F00466D1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					349751E02F4EEC4F00466D1D = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					349751EF2F4EEC5000466D1D = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 349751E02F4EEC4F00466D1D;
+					};
+					349751F92F4EEC5000466D1D = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 349751E02F4EEC4F00466D1D;
+					};
+					W1W2W3022F4EEC5000466D1 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 349751DC2F4EEC4F00466D1D /* Build configuration list for PBXProject "Walkify" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 349751D82F4EEC4F00466D1D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 349751E22F4EEC4F00466D1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349751E02F4EEC4F00466D1D /* Walkify */,
+				W1W2W3022F4EEC5000466D1 /* WalkifyWidgetExtension */,
+				349751EF2F4EEC5000466D1D /* WalkifyTests */,
+				349751F92F4EEC5000466D1D /* WalkifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349751DF2F4EEC4F00466D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349751EE2F4EEC5000466D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349751F82F4EEC5000466D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		W1W2W30A2F4EEC5000466D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349751DD2F4EEC4F00466D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349751EC2F4EEC5000466D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349751F62F4EEC5000466D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		W1W2W3082F4EEC5000466D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		349751F22F4EEC5000466D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349751E02F4EEC4F00466D1D /* Walkify */;
+			targetProxy = 349751F12F4EEC5000466D1D /* PBXContainerItemProxy */;
+		};
+		349751FC2F4EEC5000466D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349751E02F4EEC4F00466D1D /* Walkify */;
+			targetProxy = 349751FB2F4EEC5000466D1D /* PBXContainerItemProxy */;
+		};
+		W1W2W3052F4EEC5000466D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = W1W2W3022F4EEC5000466D1 /* WalkifyWidgetExtension */;
+			targetProxy = W1W2W3002F4EEC5000466D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		349752022F4EEC5000466D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		349752032F4EEC5000466D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349752052F4EEC5000466D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Walkify/Walkify.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XVVG35MW7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Walkify reads your step count from Health to show your daily activity.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Walkify uses your step count to track daily activity and help you reach your goals.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yigitatar.walkify.yigit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		349752062F4EEC5000466D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Walkify/Walkify.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3XVVG35MW7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Walkify reads your step count from Health to show your daily activity.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Walkify uses your step count to track daily activity and help you reach your goals.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yigitatar.walkify.yigit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		349752082F4EEC5000466D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yigitatar.WalkifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walkify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Walkify";
+			};
+			name = Debug;
+		};
+		349752092F4EEC5000466D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yigitatar.WalkifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walkify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Walkify";
+			};
+			name = Release;
+		};
+		3497520B2F4EEC5000466D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yigitatar.WalkifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walkify;
+			};
+			name = Debug;
+		};
+		3497520C2F4EEC5000466D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yigitatar.WalkifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walkify;
+			};
+			name = Release;
+		};
+		W1W2W30B2F4EEC5000466D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WalkifyWidget/WalkifyWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "WalkifyWidgetExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yigitatar.walkify.yigit.widgetextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		W1W2W30C2F4EEC5000466D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WalkifyWidget/WalkifyWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "WalkifyWidgetExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yigitatar.walkify.yigit.widgetextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349751DC2F4EEC4F00466D1D /* Build configuration list for PBXProject "Walkify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349752022F4EEC5000466D1D /* Debug */,
+				349752032F4EEC5000466D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349752042F4EEC5000466D1D /* Build configuration list for PBXNativeTarget "Walkify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349752052F4EEC5000466D1D /* Debug */,
+				349752062F4EEC5000466D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349752072F4EEC5000466D1D /* Build configuration list for PBXNativeTarget "WalkifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349752082F4EEC5000466D1D /* Debug */,
+				349752092F4EEC5000466D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3497520A2F4EEC5000466D1D /* Build configuration list for PBXNativeTarget "WalkifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3497520B2F4EEC5000466D1D /* Debug */,
+				3497520C2F4EEC5000466D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		W1W2W3072F4EEC5000466D1 /* Build configuration list for PBXNativeTarget "WalkifyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				W1W2W30B2F4EEC5000466D1 /* Debug */,
+				W1W2W30C2F4EEC5000466D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349751D92F4EEC4F00466D1D /* Project object */;
+}
