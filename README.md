@@ -42,7 +42,7 @@ A modern iOS step tracking app built with SwiftUI and SwiftData. Track your dail
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Walkify.git
+   git clone https://github.com/yigitatarr/Walkify.git
    ```
 
 2. Open the project in Xcode:
@@ -112,4 +112,4 @@ This project is proprietary. All rights reserved.
 
 ## Author
 
-**Yiğit Atar** — [GitHub](https://github.com/yigitatar)
+**Yiğit Atar** — [GitHub](https://github.com/yigitatarr)
